@@ -16,6 +16,7 @@
   color: #fff;
   padding: 2px 6px;
   border-radius: 2px;
+
 }
 
 .example .background {
@@ -25,4 +26,25 @@
   background-image: url('../images/logo.png');
   background-size: cover;
   background-position: center;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--main-color-yellow);
+}
+.canvas {
+  max-width: 1000px;
+  height: 400px;
+background-color: black;
+  background-image: url('../images/payday-sale/Star 7.svg'),
+    url('../images/payday-sale/Star 8.svg' ),
+    url('../images/payday-sale/Star 5.svg'), url('../images/payday-sale/Star 6.svg'),
+    url('../images/payday-sale/image 12.svg');
+
+  background-size: 80px, 100px, 150px, 130px, cover;
+  background-repeat: no-repeat;
+  background-position: top 120px right 130px, top 270px left 130px, center, 100px 60px,
+    center;
 }
