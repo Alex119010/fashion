@@ -1,0 +1,16 @@
+@mixin sing-up__btn{
+    //min-width: 20px;
+    //min-height: 50px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: $main-color-white;
+    background: $main-color-black;
+    padding: 20px 20px;
+    //box-shadow: 0px 4px 4px rgba(0,0,0,.15);
+    border-radius: 10px;
+    cursor: pointer;
+  }
