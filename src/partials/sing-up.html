@@ -1,7 +1,7 @@
 
 <section class="sign-up">
     <div class="container sign-up__block">
-        <button type="button" class="sign-up__btn" data-modal-open>Регистрация</button>
+        <button type="button" class="sign-up__btn" data-modal-open>SIGN UP</button>
     </div>
 </section>
 
@@ -10,67 +10,70 @@
         <button class="close-btn">&times;</button>
         <div class="form-container sign-up-container">
             <form action="#">
-                <h1>Регистрация</h1>
+                <h1>Registration</h1>
                 <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social" aria-label="Facebook">
+                    <svg class="icon" width="70" height="70">
+                        <use href="./images/logo/icons.svg#icon-facebook"></use>
+                    </svg> 
+                  </a>
+                  <a href="#" class="social" aria-label="Google">
+                    <svg class="icon" width="70" height="70">
+                        <use href="./images/logo/icons.svg#icon-google"></use>
+                    </svg> 
+                  </a>
+                  <a href="#" class="social" aria-label="LinkedIn">
+                    <svg class="icon" width="70" height="70">
+                        <use href="./images/logo/icons.svg#icon-linkedin"></use>
+                    </svg> 
+                  </a>
                 </div>
-                <span>или используйте свой E-mail для регистрации</span>
-                <input type="text" placeholder="Имя" />
+                <span>or use your email address to register</span>
+                <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" />
-                <input type="password" placeholder="Пароль" />
-                <button>Зарегистрироваться</button>
+                <input type="password" placeholder="Password" />
+                <button>Sign up</button>
             </form>
         </div>
         <div class="form-container sign-in-container">
             <form action="#">
-                <h1>Авторизация</h1>
-                <!-- <div class="social-container">
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                </div> -->
-
+                <h1>Authorization</h1>
                 <div class="social-container">
                     <a href="#" class="social" aria-label="Facebook">
-                        <!-- <svg class="icon"><use href="#icon-facebook"></use></svg> -->
                         <svg class="icon" width="70" height="70">
                             <use href="./images/logo/icons.svg#icon-facebook"></use>
                         </svg> 
                       </a>
                       <a href="#" class="social" aria-label="Google">
-                        <!-- <svg class="icon"><use href="#icon-google"></use></svg> -->
                         <svg class="icon" width="70" height="70">
                             <use href="./images/logo/icons.svg#icon-google"></use>
                         </svg> 
                       </a>
                       <a href="#" class="social" aria-label="LinkedIn">
-                        <!-- <svg class="icon"><use href="#icon-linkedin"></use></svg> -->
                         <svg class="icon" width="70" height="70">
                             <use href="./images/logo/icons.svg#icon-linkedin"></use>
                         </svg> 
                       </a>
                   </div>
 
-                <span>или используйте свой аккаунт</span>
+                <span>or use your account</span>
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Пароль" />
-                <a href="#">Забыли пароль?</a>
-                <button>Вход</button>
+                <a href="#">Forgot your password?</a>
+                <button>Sign-in</button>
             </form>
         </div>
         <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
-                    <h1>Добро пожаловать!</h1>
-                    <p>Чтобы оставаться на связи с нами, пожалуйста, войдите в систему с вашей личной информацией</p>
-                    <button class="ghost" id="signIn">Авторизация</button>
+                    <h1>Welcome!</h1>
+                    <p class="overlay-text">To stay in touch with us, please log in with your personal information.</p>
+                    <button class="ghost" id="signIn">Authorization</button>
                 </div>
                 <div class="overlay-panel overlay-right">
-                    <h1>Привет, Друг!</h1>
-                    <p>Введите свои личные данные и начните путешествие вместе с нами</p>
-                    <button class="ghost" id="signUp">Регистрация</button>
+                    <h1>Hello, Friend!</h1>
+                    <p class="overlay-text">Enter your personal details and start shopping on our website.</p>
+                    <button class="ghost" id="signUp">Registration</button>
                 </div>
             </div>
         </div>
